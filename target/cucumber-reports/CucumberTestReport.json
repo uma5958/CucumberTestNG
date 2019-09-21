@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-login-to-application;test-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12468005400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open browser and navigate to url",
+            "match": {
+              "location": "LoginStepDefinition.open_browser_and_navigate_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2365373000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid \"admin\" and \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 19
+                },
+                {
+                  "val": "manager",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_valid_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56321500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 859925800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login to application",
+    "description": "",
+    "id": "test-login-to-application",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

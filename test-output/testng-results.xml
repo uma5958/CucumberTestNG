@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="17973" started-at="2019-09-21T06:59:36Z" finished-at="2019-09-21T06:59:54Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@57fffcd7]" name="feature" class="Runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FREE CRM Test" duration-ms="17973" started-at="2019-09-21T06:59:36Z" finished-at="2019-09-21T06:59:54Z">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@57fffcd7]" name="setUpClass" is-config="true" duration-ms="422" started-at="2019-09-21T06:59:36Z" finished-at="2019-09-21T06:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@57fffcd7]" name="feature" duration-ms="17161" started-at="2019-09-21T06:59:37Z" description="Run Cucumber Feature" data-provider="features" finished-at="2019-09-21T06:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test login to application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Runner.TestRunner@57fffcd7]" name="finish" is-config="true" duration-ms="172" started-at="2019-09-21T06:59:54Z" finished-at="2019-09-21T06:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- FREE CRM Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

@@ -1,18 +1,18 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DDTusingDataTables.feature");
 formatter.feature({
   "line": 1,
-  "name": "Test login to application",
+  "name": "Data driven testing with Data tables",
   "description": "",
-  "id": "test-login-to-application",
+  "id": "data-driven-testing-with-data-tables",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
+formatter.scenario({
   "line": 3,
-  "name": "Test login with valid credentials",
+  "name": "Login using data tables",
   "description": "",
-  "id": "test-login-to-application;test-login-with-valid-credentials",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "id": "data-driven-testing-with-data-tables;login-using-data-tables",
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 4,
@@ -21,112 +21,54 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "User enters valid \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "User should be able to login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "Close the browser",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 9,
-  "name": "",
-  "description": "",
-  "id": "test-login-to-application;test-login-with-valid-credentials;",
+  "name": "User enters valid username and password",
   "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 10,
-      "id": "test-login-to-application;test-login-with-valid-credentials;;1"
-    },
     {
       "cells": [
         "admin",
         "manager"
       ],
-      "line": 11,
-      "id": "test-login-to-application;test-login-with-valid-credentials;;2"
+      "line": 6
     }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "Test login with valid credentials",
-  "description": "",
-  "id": "test-login-to-application;test-login-with-valid-credentials;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Open browser and navigate to url",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "User enters valid \"admin\" and \"manager\"",
-  "matchedColumns": [
-    0,
-    1
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "User should be able to login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefinition.open_browser_and_navigate_to_url()"
+  "location": "DDTusingDataTables.open_browser_and_navigate_to_url()"
 });
 formatter.result({
-  "duration": 12468005400,
+  "duration": 15470328400,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "admin",
-      "offset": 19
-    },
-    {
-      "val": "manager",
-      "offset": 31
-    }
-  ],
-  "location": "LoginStepDefinition.user_enters_valid_username_and_password(String,String)"
+  "location": "DDTusingDataTables.user_enters_valid_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 2365373000,
+  "duration": 4197047300,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_should_be_able_to_login()"
+  "location": "DDTusingDataTables.user_should_be_able_to_login()"
 });
 formatter.result({
-  "duration": 56321500,
+  "duration": 960732000,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.close_the_browser()"
+  "location": "DDTusingDataTables.close_the_browser()"
 });
 formatter.result({
-  "duration": 859925800,
+  "duration": 1094950000,
   "status": "passed"
 });
 });

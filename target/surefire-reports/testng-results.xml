@@ -5,23 +5,23 @@
       <![CDATA[Login successful]]>
     </line>
   </reporter-output>
-  <suite name="actiTime Test Suite" duration-ms="16443" started-at="2019-09-21T12:30:33Z" finished-at="2019-09-21T12:30:50Z">
+  <suite name="actiTime Test Suite" duration-ms="22552" started-at="2019-10-03T06:41:42Z" finished-at="2019-10-03T06:42:05Z">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@7225790e]" name="feature" class="Runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="actiTime Test" duration-ms="16443" started-at="2019-09-21T12:30:33Z" finished-at="2019-09-21T12:30:50Z">
+    <test name="actiTime Test" duration-ms="22552" started-at="2019-10-03T06:41:42Z" finished-at="2019-10-03T06:42:05Z">
       <class name="Runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@7225790e]" name="setUpClass" is-config="true" duration-ms="317" started-at="2019-09-21T12:30:33Z" finished-at="2019-09-21T12:30:34Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@7225790e]" name="setUpClass" is-config="true" duration-ms="357" started-at="2019-10-03T06:41:42Z" finished-at="2019-10-03T06:41:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@7225790e]" name="feature" duration-ms="15817" started-at="2019-09-21T12:30:34Z" description="Run Cucumber Feature" data-provider="features" finished-at="2019-09-21T12:30:50Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@7225790e]" name="feature" duration-ms="21796" started-at="2019-10-03T06:41:43Z" description="Run Cucumber Feature" data-provider="features" finished-at="2019-10-03T06:42:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Test login to application]]>
+                <![CDATA[Data driven testing with Data tables]]>
               </value>
             </param>
           </params>
@@ -31,7 +31,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:Runner.TestRunner@7225790e]" name="finish" is-config="true" duration-ms="173" started-at="2019-09-21T12:30:50Z" finished-at="2019-09-21T12:30:50Z">
+        <test-method status="PASS" signature="finish()[pri:0, instance:Runner.TestRunner@7225790e]" name="finish" is-config="true" duration-ms="71" started-at="2019-10-03T06:42:05Z" finished-at="2019-10-03T06:42:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->

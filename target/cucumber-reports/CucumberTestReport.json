@@ -3,82 +3,77 @@
     "line": 1,
     "elements": [
       {
-        "line": 11,
-        "name": "Test login with valid credentials",
+        "line": 3,
+        "name": "Login using data tables",
         "description": "",
-        "id": "test-login-to-application;test-login-with-valid-credentials;;2",
+        "id": "data-driven-testing-with-data-tables;login-using-data-tables",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12468005400,
+              "duration": 15470328400,
               "status": "passed"
             },
             "line": 4,
             "name": "Open browser and navigate to url",
             "match": {
-              "location": "LoginStepDefinition.open_browser_and_navigate_to_url()"
+              "location": "DDTusingDataTables.open_browser_and_navigate_to_url()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2365373000,
+              "duration": 4197047300,
               "status": "passed"
             },
             "line": 5,
-            "name": "User enters valid \"admin\" and \"manager\"",
+            "name": "User enters valid username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "admin",
-                  "offset": 19
-                },
-                {
-                  "val": "manager",
-                  "offset": 31
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_valid_username_and_password(String,String)"
+              "location": "DDTusingDataTables.user_enters_valid_username_and_password(DataTable)"
             },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "admin",
+                  "manager"
+                ],
+                "line": 6
+              }
             ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 56321500,
+              "duration": 960732000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User should be able to login",
             "match": {
-              "location": "LoginStepDefinition.user_should_be_able_to_login()"
+              "location": "DDTusingDataTables.user_should_be_able_to_login()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 859925800,
+              "duration": 1094950000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Close the browser",
             "match": {
-              "location": "LoginStepDefinition.close_the_browser()"
+              "location": "DDTusingDataTables.close_the_browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Test login to application",
+    "name": "Data driven testing with Data tables",
     "description": "",
-    "id": "test-login-to-application",
+    "id": "data-driven-testing-with-data-tables",
     "keyword": "Feature",
-    "uri": "login.feature"
+    "uri": "DDTusingDataTables.feature"
   }
 ]

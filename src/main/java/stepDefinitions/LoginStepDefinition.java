@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class LoginStepDefinition {
-	WebDriver driver;
+	/*WebDriver driver;
 	
 	@Given("^Open browser and navigate to url$")
 	public void open_browser_and_navigate_to_url() throws Throwable {
@@ -39,5 +39,5 @@ public class LoginStepDefinition {
 	@Then("^Close the browser$")
 	public void close_the_browser() throws Throwable {
 	    driver.quit();
-	}
+	}*/
 }
